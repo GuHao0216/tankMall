@@ -248,8 +248,8 @@ export default {
   height: 100%;
 }
 .el-main {
-  width: 80%;
-  margin: 10px 149.6px;
+  /* width: 80%; */
+      margin: 10px 341px;
 }
 /* .el-footer{
     position: relative;

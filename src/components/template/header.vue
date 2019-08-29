@@ -33,7 +33,8 @@ export default {
   name: "header",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
+      msg: "Welcome to Your Vue.js App",
+      input1:''
     };
   }
 };
