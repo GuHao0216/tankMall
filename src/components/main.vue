@@ -75,7 +75,7 @@
 
         <el-row style="height:922px;margin: 25px 0">
           <div class="title">111</div>
-          <el-row style="height:calc(100%-30px)!important">
+          <el-row class="middle">
             <el-col :span="12">
               <el-card class="cardSmall" shadow="hover" :body-style="{padding:0, height:'100%' }">
                 <img
@@ -104,7 +104,7 @@
               </el-card>
             </el-col>
           </el-row>
-          <el-row style="height:calc(100%-30px)!important">
+          <el-row class="middle">
             <el-col :span="6">
               <el-card class="cardSmall" shadow="hover" :body-style="{padding:0, height:'100%' }">
                 <img
@@ -222,7 +222,9 @@ export default {
   width: 100%;
   height: 100%;
 }
-
+.middle{
+  height: calc(50% - 30px)!important;
+}
 .banner {
   width: 100%;
 }
